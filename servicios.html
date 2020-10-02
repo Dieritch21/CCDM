@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/Insignia limpia.png">
+</head>
+<body>
+    <header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">
+					<img src="img/Insignia limpia.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+					CCDM
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Alternar Menu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="menuNavegacion">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">Inicio</a>
+						</li>
+						<!-- Menú Desplegable -->
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
+								información
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a href="conocenos.html" class="dropdown-item">¿Quiénes somos?</a>
+								<a href="servicios.html" class="dropdown-item">Servicios</a>
+								<a href="matricula.html" class="dropdown-item">Matricula</a>
+								<a href="contacto.html" class="dropdown-item">Contacto</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a href="galeria.html" class="nav-link">Galeria</a>
+						</li>
+						<li class="nav-item">
+							<a href="https://ccdm.moodle.school/login/index.php" class="nav-link">Aula virtual</a>
+						</li>
+						<li class="nav-item">
+							<a href="biblioteca.html" class="nav-link">Biblioteca virtual</a>
+						</li>
+					</ul>
+
+					<!--<form class="form-inline my-2 my-lg-0" action="">
+						<input type="text" class="form-control mr-sm-2" type="search" placeholder="Buscar">
+						<button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
+					</form>-->
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<!--Sección con los servicios y sus precios-->
+	<main class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="py-4 border-bottom">
+					<h1 class="text-center">Servicios</h1>
+				</div>
+			</div>
+		</div>	
+
+		<div class="row py-4">
+			<div class="col-12 col-sm-6 col-lg-3 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title">Certificado de calificaciones</h3>
+						<p class="card-text">Las calificaciones en el certificado se dividen por año y se ubican en un único papel sellado, firmado por el director. Siendo las calificaciones de primaria y secundaria independientes.</p>
+						<a href="#" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal">Más información</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="exampleModalLabel">Requisitos</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Copia de la partida de nacimiento o cédula del solicitante.</li>
+							<li>Pagar C$100 por las calificaciones de cada año solicitado.</li>
+							<li>Cancelar en el momento que se solicita.</li>
+						</ul>
+						<p>Nota: El certificado se entrega 3 dias hábiles luego de haber sido debidamente solicitado.</p>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+			<div class="col-12 col-sm-6 col-lg-3 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title">Constancia de alumno activo</h3>
+						<p class="card-text">Documento que contiene el nombre completo del estudiante, su código unico del ministerio de educación y se expresa que actualmente es un estudiante del colegio en un determinado grado.</p>
+						<a href="#" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#Modal2">Más información</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="exampleModalLabel">Requisitos</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Ser estudiante del colegio en el momento de la solicitud.</li>
+							<li>Cancelar C$30 en el momento que se solicita.</li>
+						</ul>
+						<p>Nota: La constancia se entrega 3 dias hábiles luego de haber sido debidamente solicitado</p>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+			<!--Servicio 3 = constancia de conducta-->
+			<div class="col-12 col-sm-6 col-lg-3 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title">Constancia de conducta</h3>
+						<p class="card-text">Documento que contiene el nombre del estudiante, su código unico del ministerio de educación y especificando como es el comportamiento del estudiante en el colegio en un determinado grado.</p>
+						<a href="#" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#Modal3">Más información</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="exampleModalLabel">Requisitos</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Ser estudiante activo del colegio o haberlo sido en los 3 meses anteriores a la solicitud.</li>
+							<li>Cancelar C$30 en el momento que se solicita.</li>
+						</ul>
+						<p>Nota: La constancia se entrega 3 dias hábiles luego de haber sido debidamente solicitado</p>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+			<!--Hojas de traslado 4-->
+			<div class="col-12 col-sm-6 col-lg-3 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title">Hojas de traslado</h3>
+						<p class="card-text">Documento necesario para que un estudiante se transfiera a otro colegio del territorio nacional, en el se especifican todos los datos del estudiante y su código único del MINED.</p>
+						<a href="#" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#Modal4">Más información</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="exampleModalLabel">Requisitos</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Ser solicitadas por el responsable del estudiante (papá, mamá, abuelos, tutores legales, etc.).</li>
+							<li>Este documento es gratuito.</li>
+						</ul>
+						<p>Nota: Las cartas de traslado se entregan 3 dias hábiles luego de haber sido debidamente solicitadas.</p>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			</div>
+			
+			<!--Tarjeta de servicio 5-->
+			<div class="col-12 col-sm-6 col-lg-3 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title">Cotizaciones</h3>
+						<p class="card-text">Los precios de las cotizaciones son validos por 2 semanas, luego pueden cambiar. </p>
+						<a href="#" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#Modal5">Más información</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="exampleModalLabel">Cotizaciones que se pueden solicitar</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Trajes deportivos y camisas tipo polo.</li>
+							<li>Matricula, mensualidades, papeleria, mobilidario y otros pagos básicos al colegio.</li>
+							<li>Transporte escolar.</li>
+							<li>Gastos de promoción para los niños y jovenes de preescolar, sexto grado y secundaria.</li>
+						</ul>
+						<p>Nota: Las cotizaciones son entregadas 2 dias despues de haber sido solicitadas.</p>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			</div>
+			  
+			<!--Tarjeta de servicio 6 = Recorrido escolar-->
+			<div class="col-12 col-sm-6 col-lg-3 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title">Recorrido escolar</h3>
+						<p class="card-text">Este es un servicio dirigido a los estudiantes del colegio y es de cupo limitado.</p>
+						<a href="#" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#Modal6">Más información</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="exampleModalLabel">Información del servicio</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>El costo es diferenciado en dependencia de la distancia donde el niño será recogido hasta el colegio.</li>
+							<li>El pago se realiza junto con la colegiatura de cada mes porque será cobrado como una unica cuenta.</li>
+							<li>Los niños que viven en calles poco transitables, inaccesible o muy accidentadas solo pueden ser recogidos en el punto transitable más próximo a su casa.</li>
+							<li>Los niños pequeños deben estar con un adulto al momento de abordar.</li>
+							<li>Los niños deben ser esperados por un adulto al momento de salir.</li>
+							<li>Niños que vivan en la misma casa tienen un descuento.</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+			<!--Tarjeta de servicio 7 = Trajes deportivos-->
+			<div class="col-12 col-sm-6 col-lg-3 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title">Trajes deportivos</h3>
+						<p class="card-text">En el colegio se pueden adquirir los trajes deportivos y las camisas tipo polo.</p>
+						<a href="#" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#Modal7">Más información</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="Modal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="exampleModalLabel">Trajes deportivos y camisas tipo polo</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>El costo es diferenciado en dependenia de la talla.</li>
+							<li>Las camisetas van desde la talla 2 hasta la talla XL.</li>
+							<li>Los buzos van desde la talla 2 hasta la talla XL.</li>
+							<li>Las camisas tipo polo van desde la talla 2 hasta la talla XL.</li>
+							<li>Las camisas tipo polo pueden ser utilizadas todos los dias, en cambio, el traje deportivo (camiseta y buzo) solamente los dias de educación física.</li>
+							<li>Se recomienda que al momento de su compra el niño también asista para poder comprar su talla correcta.</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary">Ver precios</button>
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+			<!--Tarjeta de servicio 8-->
+			<div class="col-12 col-sm-6 col-lg-3 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title">Servicios varios</h3>
+						<p class="card-text">Se pueden solicitar servicios instantaneos de algunos documentos, esto aplica a solo algunos, no a los que ya tienen sus dias ya estipulados.</p>
+						<a href="#" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#Modal8">Más información</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="Modal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="exampleModalLabel">Otros servicios y sus costos</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Reposición de tarjeta de pago - C$10 córdobas.</li>
+							<li>Reposición de boletin - C$20 córdobas..</li>
+							<li></li>
+						</ul>
+						<p>Nota: Los servicios mencionados aqui se entregan de manera inmediata.</p>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+	</main>
+
+	<!--Pie de página-->
+    <footer>
+		<div class="row" style="padding-top: 1%;">
+			<div class="col">
+				<p class="titulo-pie">HORARIO</p>
+            	<p class="cont-titulo-pie">Lunes a Viernes - 7:00am a 4:30pm</p>
+            	<p class="titulo-pie">Dirección</p>
+				<p class="cont-titulo-pie">Colonia Primero de mayo, del instituto 1ro de mayo 1c. al sur 1/2c. al oeste D-904</p>
+				<p class="titulo-pie">REDES SOCIALES</p>
+            	<a class="youtube" href="https://www.youtube.com/channel/UCGv8dAUQ6RC0Orijcd9IEBQ/videos"><i class="fab fa-youtube"></i></a>
+				<a class="fb" href="https://www.facebook.com/colegioconcepciondeMaria"><i class="fab fa-facebook"></i></a>
+				<a class="whatsapp" href="https://wa.me/50576785484"><i class="fab fa-whatsapp"></i>
+			</div>
+			<div class="col">
+				<h3>Ubicación</h3>
+            	<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1950.4294642658579!2d-86.22490161546779!3d12.121803304258847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73fe65ed5a9a47%3A0xb45da47cb6cb5be4!2sColegio%20Concepcion%20De%20Maria!5e0!3m2!1ses-419!2sni!4v1595141502845!5m2!1ses-419!2sni" width="700" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			<!--Salto de linea para otra fila-->
+			<div class="w-100"></div>
+			<div class="col"></div>
+				<div class="col-md-auto" style="color: white;">
+					<h6>Copyright © 2020 Todos los derechos reservados a Colegio Concepción de María</h6>
+				</div>
+			<div class="col"></div>
+		</div>
+	</footer>
+	
+    <script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/5e16ecae05.js" crossorigin="anonymous"></script>
+</body>
+</html>
