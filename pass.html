@@ -6,9 +6,9 @@
     <title>Contraseña</title>
     <link rel="shortcut icon" href="img/Insignia limpia.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilobilio.css">
 </head>
-<body>
+<body class="bilio">
     <header>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container">
@@ -51,9 +51,18 @@
 
     <main>
         <div class="ingreso">
-            <p>Código de ingreso</p>
-            <input type="password" id="ps">
+            <p>Biblioteca virtual</p>
+			<form action="#">
+				<input type="password" id="ps" placeholder="Clave de ingreso" required>
+				<input type="submit" value="Ingresar a la biblioteca">
+			</form>
         </div>
-    </main>
+	</main>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/passbiblio.js"></script>
+	<script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/5e16ecae05.js" crossorigin="anonymous"></script>
 </body>
 </html>
